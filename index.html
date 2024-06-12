@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popularity Pool</title> 
+  <style>
+    body {
+    font-family: Times New Roman, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: 	skyblue;
+    padding-right: 50px;
+    padding-left: 30px;
+    padding: 20px;
+    height: 130px;
+    margin-right: 10px;
+  display: inline-table;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-right: outset;
+border-color: skyblue;
+border-width: 15px;
+border-bottom: outset;
+border-color: skyblue;
+border-width: 15px;
+border-top: solid;
+border-left: solid;
+padding-left: 40px;
+margin-left: 200px;
+border-color: rgb(205, 174, 0);
+  
+
+    
+  }
+  option{
+    background-color: rgb(78, 201, 249);
+  }
+
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  input[type="text"],
+  input[type="number"],
+  select,
+
+
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: darkgreen;
+  }
+.background-image {
+    background-image: url('ax.jpg');
+}
+  </style>
+</head>
+<body>
+  <h1 align="center">Popularity Pool v1</h1>
+    <div>
+          
+  <form action="https://formspree.io/f/mleqqjdg" method="POST">
+    <label for="Name">Name: </label>
+    <input type="text" id="Name" name="Name" required>
+    
+    <label for="Number">Enter last two digits of your Number: </label>
+    <input type="number" id="Number" name="Number" required>
+    
+    <label for="person">Vote to: </label>
+    <select name="Person" id="person">
+      <option selected="Choose">Choose</option>
+      <option value="Aayush Giri">Aayush Giri</option>
+      <option value="Aayusha Shresthacharya Baniya">Aayusha Shresthacharya Baniya</option>
+      <option value="Asmita Silwal">Asmita Silwal</option>
+      <option value="Avishek Sigdel">Avishek Sigdel</option>
+      <option value="Bhumi Pradhan">Bhumi Pradhan</option>
+      <option value="Bigyan Sapkota">Bigyan Sapkota</option>
+      <option value="Bipin Dawadi">Bipin Dawadi</option>
+      <option value="Jenisha Shrestha">Jenisha Shrestha</option>
+      <option value="Mandip Shrestha">Mandip Shrestha</option>
+      <option value="Muskan Rajbanshi">Muskan Rajbanshi</option>
+      <option value="Nikita Chaudary">Nikita Chaudary</option>
+      <option value="Rakshya Shrestha">Rakshya Shrestha</option>
+      <option value="Rijan Riajl">Rijan Riajl</option>
+      <option value="Ritesh Chaudary">Ritesh Chaudary</option>
+      <option value="Reuel Rai">Reuel Rai</option>
+      <option value="Sakshyam Maharjan">Sakshyam Maharjan</option>
+      <option value="Samyog Sapkota">Samyog Sapkota</option>
+      <option value="Sandeep Lamichhane">Sandeep Lamichhane</option>
+      <option value="Shristi Budha Magar">Shristi Budha Magar</option>
+      <option value="Smaran Bajracharya">Smaran Bajracharya</option>
+      <option value="Srestaa Shrestha">Srestaa Shrestha</option>
+      <option value="Sudip Bhandari">Sudip Bhandari</option>
+      <option value="Sujata Pulami">Sujata Pulami</option>
+      <option value="Umanga Magar">Umanga Magar</option>
+    </select>
+    
+    <label for="Message">Tell us something you like about this person: </label>
+    <textarea id="Message" name="Message" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+
+</div>
+</body>
+</html>
